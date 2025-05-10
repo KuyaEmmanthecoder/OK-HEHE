@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Frog Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1>The Frog Hotel</h1>
+      <p>Your peaceful escape in nature</p>
+      <a href="#reservation" class="btn" target="_blank">Reserve Now</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#reservation">Reservation</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About The Frog Hotel</h2>
+    <p>The Frog Hotel offers a tranquil and unique retreat, surrounded by nature. Our rooms blend rustic charm with modern comfort.</p>
+  </section>
+
+  <section id="rooms" class="section">
+    <h2>Our Rooms</h2>
+    <div class="room-gallery">
+      <div class="room-card">
+        <img src="https://source.unsplash.com/400x300/?eco-hotel" alt="Standard Room">
+        <h3>Standard Room</h3>
+        <p>Perfect for solo travelers or couples.</p>
+      </div>
+      <div class="room-card">
+        <img src="https://source.unsplash.com/400x300/?hotel-room" alt="Deluxe Room">
+        <h3>Deluxe Room</h3>
+        <p>Extra space and beautiful forest views.</p>
+      </div>
+      <div class="room-card">
+        <img src="https://source.unsplash.com/400x300/?nature-suite" alt="Nature Suite">
+        <h3>Nature Suite</h3>
+        <p>Luxury suite with a private balcony.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservation" class="section">
+    <h2>Make a Reservation</h2>
+    <form class="reservation-form">
+      <label>Full Name:
+        <input type="text" required>
+      </label>
+      <label>Email Address:
+        <input type="email" required>
+      </label>
+      <label>Check-in Date:
+        <input type="date" required>
+      </label>
+      <label>Check-out Date:
+        <input type="date" required>
+      </label>
+      <label>Room Type:
+        <select>
+          <option>Standard Room</option>
+          <option>Deluxe Room</option>
+          <option>Nature Suite</option>
+        </select>
+      </label>
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact & Location</h2>
+    <p><strong>Address:</strong> 123 Forest Lane, Greenhill Valley, Country</p>
+    <p><strong>Phone:</strong> +123 456 7890</p>
+    <p><strong>Email:</strong> contact@frog-hotel.com</p>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019539868728!2d-122.41941508468178!3d37.77492927975932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c3aab6b55%3A0xe29b8cc845497c3!2sThe%20Frog%20Hotel!5e0!3m2!1sen!2sus!4v1614739104960!5m2!1sen!2sus"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Frog Hotel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
